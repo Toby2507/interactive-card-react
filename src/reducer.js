@@ -10,7 +10,7 @@ const reducer = (state, action) => {
             return { ...state, cardNumber };
         case 'ALTER_EXP_DATE_M':
             let { expDateM } = action.payload;
-            if (expDateM.replace(/^0/, '').length < 2 && action.payload.key.toLowerCase() !== 'backspace') {
+            if (expDateM.replace(/^0/, '').length < 2 && action.payload.key?.toLowerCase() !== 'backspace') {
                 expDateM = `0${expDateM}`
             } else { expDateM = expDateM.replace(/^0/, '') }
             return { ...state, expDateM };
