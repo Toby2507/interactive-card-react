@@ -11,7 +11,7 @@ const SuccessMessage = () => {
                 <h1 className="text-xl text-veryDarkViolet uppercase tracking-wider font-medium">thank you!</h1>
                 <p className="text base text-darkGrayishViolet">We've added your card details</p>
             </div>
-            <button className="w-full py-4 bg-veryDarkViolet rounded-lg text-lg text-white text-center font-semibold capitalize tracking-wider" onClick={resetAction}>continue</button>
+            <button className="w-60 py-4 bg-veryDarkViolet rounded-lg text-lg text-white text-center font-semibold capitalize tracking-wider" onClick={resetAction}>continue</button>
         </section>
     )
 }

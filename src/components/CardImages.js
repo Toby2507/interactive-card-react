@@ -20,7 +20,7 @@ export const FrontImage = () => {
 export const BackImage = () => {
     const { cvc } = useGlobal();
     return (
-        <figure className="top-0 right-8 absolute w-72 h-max my-12 mx-auto md:w-96 lg:top-[47%] lg:right-0 ">
+        <figure className="top-0 right-8 absolute w-72 h-max my-12 mx-auto md:w-96 lg:top-[50%] lg:right-0 ">
             <img src={back} alt="front card" className='absolute top-0 left-0 w-full' />
             <span className="absolute top-[4.3rem] right-9 text-xs tracking-wider text-white md:top-[5.8rem] md:right-12 md:text-sm">{cvc}</span>
         </figure>
